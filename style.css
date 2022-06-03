@@ -1,0 +1,175 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfafb;
+    font-family: "poppin", sans-serif;
+    font-size: 30px;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    position: relative;
+}
+
+header h3{
+    font-weight: 700;
+   position: relative;
+   left: -20px;
+   top: -25px;
+   
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #000;
+    background-image: url('/images/Group\ 1.png');
+}
+
+span{
+    color: #FF7046;
+}
+
+.nav-links ul{
+    display: flex;
+    padding: 0;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.nav-links{
+    display: none;
+}
+
+.open-menu{
+    margin-top: 20px;
+}
+
+.header-bttn{
+    display: none;
+}
+
+.hero-image{
+    margin-top: 30px;
+}
+
+.hero-image img{
+    max-width: 100%;
+}
+
+.bttn2 button{
+    padding: 15px 50px;
+    background-color:#FF7046;
+    border: none;
+    color: #fff;
+}
+
+.hero-section{
+    text-align: center;
+}
+
+.more{
+    font-size: 0.7em;
+    margin-left: 30px;
+}
+
+@media screen and (min-width: 1000px){
+    .nav-links{
+        display: flex;
+       margin-top: 30px;
+       margin-right: -200px;
+    }
+
+    .nav-links li a{
+         font-size: 0.7em;
+    }
+
+    .open-menu{
+        display: none;
+    }
+
+    .header-bttn{
+        display: flex;
+        margin-top: 20px;
+      
+    }
+    
+    header h3{
+         top: 20px;
+         left: -200px;
+    }
+    
+    .logo a{
+        font-size: 1em;
+    }
+
+    .header-bttn{
+        margin-left: 30px;
+    }
+
+    .header-bttn2{
+        padding: 0px 50px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #FF7046;
+        color: #FF7046;
+        font-size: 0.7em;
+        font-weight: 300;
+        background-color: #fff;
+    }
+
+    .hero-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: unset;
+    }
+
+    .hero-paragraph{
+        width: 40%;
+    }
+
+    .hero-paragraph h3{
+        margin-top: 0;
+        font-size: 1em;
+    }
+
+    .hero-paragraph h2{
+        margin-bottom: 0;
+        font-size: 1.46em;
+    }
+
+    .hero-paragraph p{
+        font-size: 0.7em;
+    }
+
+    .bttn2 button{
+        padding: 10px 60px;
+        font-size: 0.6em;
+        font-weight: 500;
+       
+    }
+
+    .hero-image{
+        margin-top: 80px;
+    }
+
+    .bttn2{
+        margin-top: 50px;
+    }
+}
