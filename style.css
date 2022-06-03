@@ -88,6 +88,19 @@ span{
     margin-left: 30px;
 }
 
+.hero-paragraph h3{
+        margin-top: 0;
+        font-size: 1em;
+    }
+
+    .hero-paragraph h2{
+        margin-bottom: 0;
+        font-size: 1.46em;
+    }
+
+    .hero-paragraph p{
+        font-size: 0.7em;
+    }
 @media screen and (min-width: 1000px){
     .nav-links{
         display: flex;
@@ -144,19 +157,7 @@ span{
         width: 40%;
     }
 
-    .hero-paragraph h3{
-        margin-top: 0;
-        font-size: 1em;
-    }
-
-    .hero-paragraph h2{
-        margin-bottom: 0;
-        font-size: 1.46em;
-    }
-
-    .hero-paragraph p{
-        font-size: 0.7em;
-    }
+    
 
     .bttn2 button{
         padding: 10px 60px;
